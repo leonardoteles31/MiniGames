@@ -24,7 +24,7 @@ function loadGame(game) {
             break;
 
         case "dodge":
-            import('./dodge.js').then(module => {
+            import('src/index.html').then(module => {
             module.startDodge(gameContainer);
             });
             break;
