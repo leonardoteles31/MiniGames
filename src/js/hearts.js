@@ -1,7 +1,7 @@
 export function startHearts(container) {
 
     container.innerHTML = `
-        <h2>❤️ Caça-Corações</h2>
+        <h2>❤️ Click Lover</h2>
 
         <div id="hearts-timer" style="font-size:22px; margin-bottom:10px;">
             ⏳ Tempo: 10
