@@ -12,13 +12,13 @@ function loadGame(game) {
 
     switch (game) {
         case "memory":
-            import('/puzzle-web/src/js/memory.js').then(module => {
+            import('/MiniGames/src/js/memory.js').then(module => {
                 module.startMemory(gameContainer);
             });
             break;
 
         case "hearts":
-            import('/puzzle-web/src/js/hearts.js').then(module => {
+            import('/MiniGames/src/js/hearts.js').then(module => {
                 module.startHearts(gameContainer);
             });
             break;
