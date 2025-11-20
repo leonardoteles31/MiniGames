@@ -24,7 +24,7 @@ function loadGame(game) {
             break;
 
         case "dodge":
-            import('puzzle-web/index.html').then(module => {
+            import('./dodge.js').then(module => {
             module.startDodge(gameContainer);
             });
             break;
