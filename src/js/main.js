@@ -12,13 +12,13 @@ function loadGame(game) {
 
     switch (game) {
         case "memory":
-            import('./src/js/memory.js').then(module => {
+            import('./memory.js').then(module => {
                 module.startMemory(gameContainer);
             });
             break;
 
         case "hearts":
-            import('./src/js/hearts.js').then(module => {
+            import('./hearts.js').then(module => {
                 module.startHearts(gameContainer);
             });
             break;
