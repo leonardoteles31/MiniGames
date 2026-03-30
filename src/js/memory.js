@@ -1,7 +1,7 @@
 export function startMemory(container) {
 
     container.innerHTML = `
-        <h2>🧠 Memory Love</h2>
+        <h2>🧠 Memory Hearts</h2>
 
         <div id="memory-board" 
             style="
