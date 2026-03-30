@@ -108,7 +108,7 @@ export function startMemory(container) {
 
             if (matched === cards.length * 2) {
                 setTimeout(() => {
-                    showMessage("🎉 Olha só, a memória de elefante ta boaKKKKK Te amo!! ❤️", "#e60073");
+                    showMessage("Ta esperto(a) hein!", "#e60073");
                 }, 300);
             }
         } else {
