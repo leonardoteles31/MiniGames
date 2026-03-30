@@ -101,7 +101,7 @@ export function startHearts(container) {
             if (collected === totalHearts) {
                 ended = true;
                 clearInterval(timer);
-                showMessage("🎉 Parabéns meu bem, você pegou todos os corações! Te amo ❤️", "#e60073");
+                showMessage("🎉 Parabéns, você pegou todos os corações!", "#e60073");
             }
         });
     }
